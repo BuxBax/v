@@ -34,7 +34,7 @@ color: black;
 .callback {
     margin-left: 30px;
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 3px 8px;
     background-color: coral;
     border-radius: 100px;
     color: #fff;
@@ -92,7 +92,7 @@ a:hover {
             width: 100%;
             height: 50px;
             background-color: rgb(214, 235, 235);
-            text-align: right;
+            text-align: center;
         }
  .cma {
     text-align: center;
@@ -109,4 +109,10 @@ a:hover {
     top: 50%;
     transform: translate(Y -50%);
     color: rgb(144, 50, 0);
+ }
+ .contact {
+    text-align: center;
+ }
+ .h2 {
+    text-align: center;
  }
