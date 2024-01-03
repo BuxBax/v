@@ -1,0 +1,112 @@
+body {background-color: azure;
+
+font-size: 16;}
+.navbar {
+    width: 100%;
+    height: 70%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+    .navbar .container {
+height: inherit;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.navbar-menu li {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.navbar-menu li a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    opacity: 0.6;
+    transition:all .07s ease-in-out;
+}
+.navbar-wrap {
+display: flex;
+flex-flow: row nowrap;
+color: black;
+}
+.callback {
+    margin-left: 30px;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: coral;
+    border-radius: 100px;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(255, 127, 80, .2);
+}
+.callback:hover {
+    transform: scale(1.04);
+    color: #fff;
+    box-shadow: 0 9px 9px rgba(255, 127, 80, .5);
+    
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+.navbar-brand:hover {
+    color: coral;
+    transition: all .07s ease-in-out;
+}
+.navbar-menu :hover {
+    opacity: 1;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: right;
+}
+a {
+text-decoration: none;
+color: black;
+text-align: right;
+}
+a:hover {
+    color: coral;
+    border-bottom: 1px dashed coral;
+}
+.card {
+    margin-bottom: 20px;
+    text-align: right;
+}
+.text2 {
+    margin-bottom: 20px;
+    text-align: center;
+    background: red;
+}
+.room {
+    text-align: center;
+}
+ .footer {
+            width: 100%;
+            height: 50px;
+            background-color: rgb(214, 235, 235);
+            text-align: right;
+        }
+ .cma {
+    text-align: center;
+ }   
+ .tel {
+    color: rgb(144, 50, 0);
+ }
+ .holod {
+    text-align: center;
+ }
+ .f {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translate(Y -50%);
+    color: rgb(144, 50, 0);
+ }
